@@ -8,12 +8,12 @@ The analysis follows a clear, academic-inspired structure for readability and tr
 - [Shop Ease Sales Data Analysis (Jan–Jun 2024)](#shop-ease-sales-data-analysis-janjun-2024)
   - [Overview](#overview)
   - [Table of Contents](#table-of-contents)
-  - [Project Structure 📁](#project-structure-)
-  - [Data Cleaning 🧹](#data-cleaning-)
-  - [Exploratory Data Analysis - EDA 📊](#exploratory-data-analysis---eda-)
-  - [Visualizations 📈](#visualizations-)
-  - [Key Findings 🔑](#key-findings-)
-  - [References 📚](#references-)
+  - [Project Structure](#project-structure-📁)
+  - [Data Cleaning](#data-cleaning-🧹)
+  - [Exploratory Data Analysis - EDA ](#exploratory-data-analysis---eda-📊)
+  - [Visualizations ](#visualizations-📈)
+  - [Key Findings ](#key-findings-🔑)
+  - [References ](#references-📚)
 
 
 
@@ -24,11 +24,12 @@ ShopEase-Data-Analysis/
 │
 ├── data/
 │   ├── sales_data_raw.xlsx
-│   └── sales_data_cleaned.xlsx
+│   |── sales_data_cleaned.xlsx
 ├── images/
-│   ├── sales_trends.png
-│   ├── category_sales.png
-│   └── regional_performance.png
+│   ├── LineChartSales.png
+│   ├── SalesByCategory.png
+│   |── SalesByRegion.png
+|   |── TotalSalesHistogram
 ├── src/
 │   └── analysis_script.py
 README.md
@@ -49,7 +50,7 @@ README.md
   
 The median is significantly below the mean, indicating a right-skewed distribution. This skewness is due to two dates with exceptionally high sales (January 10 and April 5), as shown in the histogram with a pronounced right tail
 
-![Total Sales Histogram](Business-Insights-ShopEase/images/TotalSalesHistogram.png)
+![Total Sales Histogram](images/TotalSalesHistogram.png)
 
 Correlation Matrix
 ```text
@@ -65,13 +66,13 @@ Correlation Matrix
 
 
 ## Visualizations 📈
-![Sales Trend](Business-Insights-ShopEase/images/LineChartSales.png)
+![Sales Trend](images/LineChartSales.png)
 
 
-![Category Sales](Business-Insights-ShopEase/images/SalesByCategory.png)
+![Category Sales](images/SalesByCategory.png)
 
 
-![Regional Performance](Business-Insights-ShopEase/images/SalesByRegion.png)
+![Regional Performance](images/SalesByRegion.png)
 
 
 
