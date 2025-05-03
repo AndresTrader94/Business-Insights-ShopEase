@@ -65,7 +65,7 @@ Correlation Matrix
 
 
 ## Visualizations 📈
-![Sales Trend](Business-Insights-ShopEase/images/LineChartSales.png)
+![Sales Trend](images/LineChartSales.png)
 
 
 ![Category Sales](Business-Insights-ShopEase/images/SalesByCategory.png)
