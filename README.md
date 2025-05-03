@@ -41,7 +41,7 @@ README.md
 - Identified and filled missing values.
 - Renamed the column `Total_Amount` to `Total_Sales`.
 - Exported the cleaned dataset as `sales_data_cleaned.xlsx`.
-- 
+
 ## Exploratory Data Analysis - EDA 📊
 
 - **Mean Total Sales:** $396.5
@@ -64,6 +64,7 @@ Correlation Matrix
   
 
 
+
 ## Visualizations 📈
 ![Sales Trend](Business-Insights-ShopEase/images/LineChartSales.png)
 
@@ -72,7 +73,6 @@ Correlation Matrix
 
 
 ![Regional Performance](Business-Insights-ShopEase/images/SalesByRegion.png)
-
 
 
 ## Key Findings 🔑
